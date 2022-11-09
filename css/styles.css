@@ -419,7 +419,7 @@ label {
     /* clip: rect(0 0 0 0);
     width: 1px;
     height: 1px; */
-    /* appearance: none; */
+    appearance: none;
 
 }
 
@@ -430,9 +430,9 @@ label {
     position: absolute;
     width: 16px;
     height: 15px;
-    /* border: 2px solid var(--body-text-color);
+    border: 2px solid var(--body-text-color);
     border-radius: 1px;
-    background-color: var(--tertiary-text-color); */
+    background-color: var(--tertiary-text-color);
 }
 
 .check-input:checked+.checkbox {
