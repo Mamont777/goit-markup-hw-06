@@ -422,8 +422,8 @@ label {
 
 .checkbox {
     position: absolute;
-    margin-top: 3px;
-    margin-left: -19px;
+    bottom: 124px;
+    left: 54px;
     width: 16px;
     height: 15px;
     border: 2px solid var(--body-text-color);
