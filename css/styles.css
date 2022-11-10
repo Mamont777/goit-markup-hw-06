@@ -363,9 +363,8 @@ label {
 
 .icon-input {
     position: absolute;
-    top: 65%;
+    top: 50%;
     left: 15px;
-    transform: translateY(-50%);
     fill: var(--body-text-color);
     transition: fill 250ms var(--timing-function);
 }
@@ -389,6 +388,13 @@ label {
     padding-left: 43px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    transition: border 250ms var(--timing-function);
+    outline: transparent;
+}
+
+.form-field:focus-within .form-area,
+.form-field:hover .form-area {
+    border: 1px solid var(--accent-color);
 }
 
 .form-field textarea::placeholder {
@@ -396,12 +402,17 @@ label {
 
 }
 
+.form-textarea {
+    margin-bottom: 20px;
+}
+
 .form-area {
     width: 448px;
     height: 120px;
     padding: 12px 16px;
-    margin-bottom: 20px;
     resize: none;
+    transition: border 250ms var(--timing-function);
+    outline: transparent;
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
