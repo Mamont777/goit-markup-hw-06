@@ -396,7 +396,7 @@ label {
     border: 1px solid var(--accent-color);
 }
 
-.form-field textarea::placeholder {
+.form-textarea::placeholder {
     color: rgba(117, 117, 117, 0.5);
 
 }
