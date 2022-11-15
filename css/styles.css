@@ -85,15 +85,14 @@ label {
     padding-top: 0;
 }
 
-.page-header {
-
+.header {
     border-bottom-width: 1px;
-    border-bottom-color: var(--page-header-bc);
     border-bottom-style: solid;
 
+    border-bottom-color: var(--page-header-bc);
 }
 
-.page-header .container {
+.header .container {
     display: flex;
     align-items: center;
 }
